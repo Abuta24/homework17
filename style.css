@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Chivo&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:ital,wght@0,300;0,600;1,400&family=Red+Hat+Display:wght@500;900&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+}
+.main{
+    display: none;
+}
+
+.box{
+    background-image: url(assets/PathCopy.png);
+    background-position: 50% -1%;
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 535px;
+    border-radius: 23px;
+    background-color: #FFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+    margin-top: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gogo{
+    position: absolute;
+    top: 40px;
+    right: 17%;
+}
+h1{
+    color: #1E1F36;
+    font-family: 'Kumbh Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 105px 0 105px;
+}
+.txt:hover{
+    color: #F47B56;
+}
+#box1:hover{
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    column-gap: 35px;
+    margin-top: 40px;
+    margin-bottom: 18px;
+}
+.txt{
+    color: #4B4C5F;
+    font-family: 'Kumbh Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+    align-items: start;
+    width: 236px;
+}
+.xazi{
+    width: 279px;
+    height: 1px;
+    background: #E8E8EA;
+}
+p{
+    display: none;
+}
+.nokia, .samsung,.xiaomi,.apple{
+    margin-top: 19px;
+}
+p{
+    width: 279px;
+    color: #787887;
+    font-family: 'Kumbh Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+.black{
+    color: #1E1F36;
+    font-family: 'Kumbh Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 254px;
+}
+.active{
+    display: block;
+    margin-top: 13px;
+}
+.rotate{
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+.samsung{
+    display: flex;
+    flex-direction: column;
+}
+#box1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 34px;
+}
+.mr{
+    width: 177px;
+}
+.msm{
+    width: 179px;
+}
+.mtx{
+    width: 214px;
+}
+.dn{
+    display: none;
+}

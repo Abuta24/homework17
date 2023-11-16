@@ -1,0 +1,53 @@
+@media (width >= 1440px){
+    .box{
+        width: 920px;
+        height: 509px;
+        border-radius: 23px;
+        background: #FFF;
+        box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+        display: flex;
+        flex-direction: row;
+        column-gap: 38px;
+        background-image: url(assets/Group\ 2.svg);
+        background-repeat: no-repeat;
+    }
+    .dn{
+        display: block;
+        margin-left: -115px;
+    }
+    .gogo{
+        display: none;
+    }
+    .xazi{
+        width: 350px;
+        height: 1px;
+        flex-shrink: 0;
+    }
+    #box1{
+        column-gap: 72px;
+    }
+    h1{
+        color: #1E1F36;
+        font-family: 'Kumbh Sans';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+    }
+    #txt1{
+        color: #4B4C5F;
+        font-family: 'Kumbh Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 253px;
+    }
+    .main{
+        display: block;
+        position: absolute;
+        top: 43%;
+        right: 75%;
+    }
+}
